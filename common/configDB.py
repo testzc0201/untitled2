@@ -1,7 +1,10 @@
 git = 10
 print(git)
-if git>11
+if git>11:
   print('seccess')
-  else:
+else:
     print('error')
-print('ok i take onece')
+
+for i in range(git):
+    test = 5+i
+    print(test)
